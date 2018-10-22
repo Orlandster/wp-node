@@ -1,3 +1,3 @@
-export default const customFields = {
+module.exports = {
 
 }

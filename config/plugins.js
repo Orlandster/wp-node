@@ -1,4 +1,4 @@
-export default const plugins = [
+module.exports = [
   {
     name: 'New Plugins',
     slug: 'new-plugin',

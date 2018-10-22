@@ -1,6 +1,6 @@
 const labels = {
   name: 'post type general name',
-	singular_name: Book', 'post type singular name', 'your-plugin-textdomain,
+	singular_name: 'Book',
 	menu_name: 'Books',
 	name_admin_bar: 'Book',
 	add_new: 'Add New',
@@ -15,7 +15,7 @@ const labels = {
 	not_found_in_trash: 'No books found in Trash.',
 }
 
-export default const customPostTypes = [
+module.exports = [
   {
     labels,
     description: 'Description',
@@ -24,9 +24,9 @@ export default const customPostTypes = [
 		show_ui: true,
 		show_in_menu: true,
 		query_var: true,
-		rewrite: [
-      'slug': 'book'
-    ],
+		rewrite: {
+      slug: 'book'
+    },
 		capability_type: 'post',
 	  has_archive: true,
 		hierarchical: false,

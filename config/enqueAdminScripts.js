@@ -1,4 +1,4 @@
-export default const enqueAdminScripts = {
+module.exports = {
   styles: [
     'www.script.com/sctipt.css',
   ],
