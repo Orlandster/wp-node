@@ -1,0 +1,26 @@
+{
+  "name": "wp-node",
+  "version": "1.0.0",
+  "main": "wp.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orlandster/wp-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orlandster/wp-node/issues"
+  },
+  "homepage": "https://github.com/Orlandster/wp-node#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+}
